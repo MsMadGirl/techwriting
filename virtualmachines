@@ -1,0 +1,72 @@
+Virtual Machines; An Overview
+Rachel Hammer, Rebecca Scott, Gina Yu
+White paper project, ITC 134, FL16
+
+Definition of a Virtual Machine:
+
+A virtual machine is software, sometimes run on hardware designed for the purpose, which acts like a physical machine, running both operating system and application, whether as a server or a client.[1][2] They do not directly interact with the host machine’s operating system, but rather are generally mediated by a hypervisor.[3]
+
+History of Virtual Machines:
+
+The use of virtual machines goes back further than most people would assume, since we think of virtual machines as a way to run multiple operating systems on one machine, or a way to timeshare virtual servers on a single physical server. But virtual machines date back to the 1960s, when they grew out of the time-sharing of servers between multiple terminals. Timesharing allowed each user to perceive their use as if they were getting the full attention of the server, when actually it was switching rapidly between terminals, saving and restoring the state of each of them every time it switched. Emulators, which were the precursor to fill virtualization, date to 1963. IBM was the first company to produce a fully realized virtual machine, and early hypervisors as well.[4]
+
+Uses of Virtual Machines:
+
+Virtual machines can be used to create guest accounts on computers, preventing the user from accessing the settings for the machine proper. They can be used to run multiple operating systems on the same hardware.[5] They can be used to consolidate and contain systems in server farms.[6] They can also be used in a cloud format to allow multiple people to work on the same machine from different locations.[7]
+
+Advantages of Virtual Machines:
+
+Virtual machines allow multiple instances of the same operating system or multiple operating systems to run on one machine, isolating the settings and applications so that they don’t interfere with each other and allowing for fewer physical machines, making them both more cost effective and more efficient in terms of number of machines in many circumstances.[8] They also reboot much faster than a physical machine.[9] Virtual machines can protect against malicious hackers, too, by isolating the system they have access to.[10] They are convenient for people who want to try new operating systems but not reformat their entire machine.[11]
+
+Disadvantages of Virtual Machines:
+
+If the physical machine goes down, both the host system and all virtual machines go down, too, possibly losing data from all of them. And because the virtual and actual machines share the same hardware, they all run slower, and more physical storage space is needed.[12] Finally, it is sometimes possible, due to bugs or exploits, to escape a virtual machine and reach the host machine.[13]
+
+
+
+
+References:
+
+[1][4][5][8][12]Wikipedia
+https://en.wikipedia.org/wiki/Virtual_Machine
+
+[2]Virtual Computing
+http://www.virtualcomputing.net/virtual-machines
+
+[3]Wikipedia
+https://en.wikipedia.org/wiki/Storage_hypervisor
+
+[6]Server Consolidation and Containment with Virtual Infrastructure [A white paper from vmware.com on server consolidation and containment using VMWare.]. (2007).
+http://www.vmware.com/pdf/server_consolidation.pdf
+
+[7]Wikipedia
+https://en.wikipedia.org/wiki/Amazon_Machine_Image
+
+[9]vmwarez.com: Super Fast Server Reboots – Another reason Virtualization rocks.
+By David Marshall, at May 09, 2006 1:37 PM &nbsp; - https://web.archive.org/web/20060614120104/http://www.vmwarez.com/2006/05/super-fast-server-reboots-another.html
+
+[10]The Intercept
+Micah Lee - https://theintercept.com/2015/09/16/getting-hacked-doesnt-bad/
+
+[11]Linux.com
+https://www.linux.com/learn/why-when-and-how-use-virtual-machine
+
+[13]Wikipedia
+https://en.wikipedia.org/wiki/Virtual_machine_escape
+
+Background References:
+
+Adams, K., & Ageson, O. (n.d.). A Comparison of Software and Hardware Techniques for x86 Virtualization [A white paper on hardware techniques for virtualization.].
+http://www.vmware.com/pdf/asplos235_adams.pdf
+
+MakeUseOf
+http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/
+
+WiseGeek
+C.B. Fox - Susan Barwick - http://www.wisegeek.com/what-are-the-different-types-of-virtual-machines.htm
+
+Wikipedia
+https://en.wikipedia.org/wiki/Virtual_appliance
+
+
+
