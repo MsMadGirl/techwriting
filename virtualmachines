@@ -1,30 +1,39 @@
-Virtual Machines; An Overview
+Virtual Machines: An Overview
 Rachel Hammer, Rebecca Scott, Gina Yu
 White paper project, ITC 134, FL16
+Presented 10/18/2016
+Last updated 10/18/2016
 
-Definition of a Virtual Machine:
+Definition of a Virtual Machine
 
 A virtual machine is software, sometimes run on hardware designed for the purpose, which acts like a physical machine, running both operating system and application, whether as a server or a client.[1][2] They do not directly interact with the host machine’s operating system, but rather are generally mediated by a hypervisor.[3]
 
-History of Virtual Machines:
+History of Virtual Machines
 
 The use of virtual machines goes back further than most people would assume, since we think of virtual machines as a way to run multiple operating systems on one machine, or a way to timeshare virtual servers on a single physical server. But virtual machines date back to the 1960s, when they grew out of the time-sharing of servers between multiple terminals. Timesharing allowed each user to perceive their use as if they were getting the full attention of the server, when actually it was switching rapidly between terminals, saving and restoring the state of each of them every time it switched. Emulators, which were the precursor to fill virtualization, date to 1963. IBM was the first company to produce a fully realized virtual machine, and early hypervisors as well.[4]
 
-Uses of Virtual Machines:
+Uses of Virtual Machines
 
 Virtual machines can be used to create guest accounts on computers, preventing the user from accessing the settings for the machine proper. They can be used to run multiple operating systems on the same hardware.[5] They can be used to consolidate and contain systems in server farms.[6] They can also be used in a cloud format to allow multiple people to work on the same machine from different locations.[7]
 
-Advantages of Virtual Machines:
+Advantages of Virtual Machines
 
-Virtual machines allow multiple instances of the same operating system or multiple operating systems to run on one machine, isolating the settings and applications so that they don’t interfere with each other and allowing for fewer physical machines, making them both more cost effective and more efficient in terms of number of machines in many circumstances.[8] They also reboot much faster than a physical machine.[9] Virtual machines can protect against malicious hackers, too, by isolating the system they have access to.[10] They are convenient for people who want to try new operating systems but not reformat their entire machine.[11]
+Virtual machines allow multiple instances of the same operating system or multiple operating systems to run on one machine, isolating the settings and applications so that they don’t interfere with each other and allowing for fewer physical machines, making them both more cost effective and more efficient in terms of number of machines in many circumstances.[8] They also reboot much faster than a physical machine.[9] Virtual machines can protect against malicious hackers, too, by isolating the system they have access to.[10] They are convenient for people who want to try new operating systems but not reformat their entire machine.[11] VMs also have different IP addresses than their host machines, providing another layer of security from attacks.
 
-Disadvantages of Virtual Machines:
+Disadvantages of Virtual Machines
 
 If the physical machine goes down, both the host system and all virtual machines go down, too, possibly losing data from all of them. And because the virtual and actual machines share the same hardware, they all run slower, and more physical storage space is needed.[12] Finally, it is sometimes possible, due to bugs or exploits, to escape a virtual machine and reach the host machine.[13]
 
+Virtual Machines vs Dual Booting
+
+Dual booting is another option for running multiple operating systems. Practically speaking, the biggest differences are that with a virtual machine, you can switch back and forth between the host machine and the virtual one without rebooting, but a virtual machine will typically run slower, since the hardware has to run two (or more) operating systems at once.
+
+Free Virtual Machine Options
+
+VirtualBox is a free and open source virtual machine solution from Oracle, and is the only professional solution to be available under a GNU public license. It is available for Windows, Mac, Linux, and Solaris. VMWare is available for Windows, Mac and Linux, and has a basic version for free and a professional version for pay. There are other free solutions available, but these are considered industry standards and are available for multiple platforms.
+
 
 
-
 References:
 
 [1][4][5][8][12]Wikipedia
@@ -70,3 +79,15 @@ https://en.wikipedia.org/wiki/Virtual_appliance
 
 
 
+
+Link to this document: http://bit.ly/2djgK4E
+
+Q&A:
+
+What use would a virtual machine have in our classroom today?
+
+Virtual machines would allow us spaces in which we have root permissions, so that we can install software, run commands, and more, without disrupting the integrity of the physical machine.
+
+How would I go about creating my own virtual machine?
+
+Download a free virtual machine program, such as VMWare or VirtualBox, and either use one of their pre-built machines or build your own.
