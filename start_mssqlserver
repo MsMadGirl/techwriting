@@ -1,0 +1,17 @@
+You can't log on to the database server because SQL Server isn't running. 
+You've already restarted twice.
+You're getting farther and farther behind.
+Oh no!
+
+DON'T PANIC!
+
+In the Windows search box, type CMD
+Command Prompt will show as an option.
+RIGHT-click on it, and select "Run as administrator".
+Click Yes.
+
+When the command prompt opens, type NET START MSSQLSERVER
+Wait for it to finish starting. It will tell you when it has.
+Go back to SQL Server Management Studio.
+Click Connect.
+It should connect normally.
