@@ -1,4 +1,4 @@
 # techwriting
 Technical Writing Portfolio
 
-This is a space for me to upload my white papers and technical writing.
+This is a space for me to upload resources for my students, and my own technical writing.
